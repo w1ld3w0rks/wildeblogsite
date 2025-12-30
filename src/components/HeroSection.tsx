@@ -28,7 +28,7 @@ const HeroSection = () => {
 
         {/* Name */}
         <h1 className="hero-title text-6xl md:text-8xl text-secondary text-center mb-4">
-          ADS DAWSON
+          W1ld3F0x
         </h1>
 
         {/* Subtitle */}
