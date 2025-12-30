@@ -33,7 +33,7 @@ const HeroSection = () => {
 
         {/* Subtitle */}
         <h2 className="font-bebas text-2xl md:text-3xl text-secondary text-center tracking-wider mb-8">
-          AI/ML Staff Security Researcher
+          Network Engineer and IT Specialist
         </h2>
 
         {/* Badges grid */}
