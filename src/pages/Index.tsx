@@ -6,7 +6,7 @@ import FilterBar from "@/components/FilterBar";
 import EventGrid from "@/components/EventGrid";
 import {
   conferences,
-  podcasts,
+  projects,
   publications,
   volunteering,
   television,
@@ -16,7 +16,7 @@ import {
 
 const sectionTitles: Record<string, string> = {
   conferences: "CONFERENCE & EVENTS TALKS",
-  podcasts: "PODCAST APPEARANCES",
+  projects: "PROJECTS",
   publications: "PUBLICATIONS",
   volunteering: "VOLUNTEERING EXPERIENCE",
   television: "TELEVISION APPEARANCES",
@@ -32,8 +32,8 @@ const Index = () => {
     switch (activeTab) {
       case "conferences":
         return conferences;
-      case "podcasts":
-        return podcasts;
+      case "projects":
+        return projects;
       case "publications":
         return publications;
       case "volunteering":
