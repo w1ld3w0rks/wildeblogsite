@@ -8,18 +8,13 @@ import {
   conferences,
   projects,
   publications,
-  volunteering,
-  television,
   years,
-  allOrganizations,
 } from "@/data/speakingData";
 
 const sectionTitles: Record<string, string> = {
   conferences: "CONFERENCE & EVENTS TALKS",
   projects: "PROJECTS",
   publications: "PUBLICATIONS",
-  volunteering: "VOLUNTEERING EXPERIENCE",
-  television: "TELEVISION APPEARANCES",
 };
 
 const Index = () => {
@@ -36,10 +31,6 @@ const Index = () => {
         return projects;
       case "publications":
         return publications;
-      case "volunteering":
-        return volunteering;
-      case "television":
-        return television;
       default:
         return conferences;
     }
