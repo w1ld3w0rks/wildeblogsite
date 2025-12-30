@@ -1,0 +1,317 @@
+export interface SpeakingEvent {
+  id: string;
+  title: string;
+  organization: string;
+  description: string;
+  year: number;
+  type: 'conference' | 'podcast' | 'publication' | 'volunteering' | 'television';
+  link?: string;
+  readMoreLink?: string;
+}
+
+export const conferences: SpeakingEvent[] = [
+  {
+    id: "apidays-2023",
+    title: "API Days 2023 - AI/ML Security at the API level",
+    organization: "API Days",
+    description: "Talks on AI/ML Security at API level",
+    year: 2023,
+    type: "conference",
+  },
+  {
+    id: "apisec-2023",
+    title: "APISec 2023 - Securing LLM and NLP APIs",
+    organization: "APISec",
+    description: "Securing LLM and NLP APIs",
+    year: 2023,
+    type: "conference",
+  },
+  {
+    id: "dc604-2023",
+    title: "DC604 2023 - Hacker Summer Camp",
+    organization: "DC604",
+    description: "Hacker Summer Camp - Poisoning Web Training Data",
+    year: 2023,
+    type: "conference",
+  },
+  {
+    id: "incyber-2024",
+    title: "In-Cyber Forum 2024 - Language AI Security",
+    organization: "In-Cyber Forum",
+    description: "Language AI Security at the API level",
+    year: 2024,
+    type: "conference",
+  },
+  {
+    id: "isaca-2024",
+    title: "ISACA Application Security Sector Day",
+    organization: "ISACA",
+    description: "Application Security Sector Day",
+    year: 2024,
+    type: "conference",
+  },
+  {
+    id: "owasp-toronto-2024",
+    title: "OWASP Toronto - OWASP Top 10 for LLM Applications",
+    organization: "OWASP",
+    description: "OWASP Top 10 for LLM Applications",
+    year: 2024,
+    type: "conference",
+  },
+  {
+    id: "owasp-toronto-march-2025",
+    title: "OWASP Toronto (March) - Shiny Rocks in Offensive AI",
+    organization: "OWASP",
+    description: "Shiny Rocks in Offensive AI",
+    year: 2025,
+    type: "conference",
+  },
+  {
+    id: "rsa-2024",
+    title: "RSA Conference 2024 - Keynote on AI/ML Security",
+    organization: "RSA Conference",
+    description: "Keynote on AI/ML Security",
+    year: 2024,
+    type: "conference",
+  },
+  {
+    id: "rsa-2025",
+    title: "RSA USA Conference 2025 - OWASP AI Security Summit",
+    organization: "RSA Conference",
+    description: "OWASP AI Security Summit — Safeguarding GenAI & Agentic Apps",
+    year: 2025,
+    type: "conference",
+  },
+  {
+    id: "defcon-2025",
+    title: "DEFCON Bug Bounty Village - AI Jailbreaking Panel",
+    organization: "DEFCON",
+    description: "Misaligned: AI Jailbreaking Panel with Basi Team Six & Jason Haddix",
+    year: 2025,
+    type: "conference",
+  },
+  {
+    id: "isc2-2025",
+    title: "ISC2 - Behind the Prompt: Exposing LLM Vulnerabilities",
+    organization: "ISC2",
+    description: "Behind the Prompt: Exposing and Mitigating the Top LLM Vulnerabilities",
+    year: 2025,
+    type: "conference",
+  },
+  {
+    id: "promptorgtfo-2025",
+    title: "PromptorGTFO 2025 - Deploying Offensive AI",
+    organization: "PromptorGTFO",
+    description: "Dreadnode: Deploying Offensive AI with Modular Agents",
+    year: 2025,
+    type: "conference",
+  },
+];
+
+export const podcasts: SpeakingEvent[] = [
+  {
+    id: "bareknuckles-2025",
+    title: "Bare Knuckles and Brass Tacks",
+    organization: "Bare Knuckles",
+    description: "Discussion about AI and ML security",
+    year: 2025,
+    type: "podcast",
+  },
+  {
+    id: "chai-chat-2023",
+    title: "ChAI Chat Podcast",
+    organization: "ChAI Chat",
+    description: "Conversations on AI ethics and security challenges",
+    year: 2023,
+    type: "podcast",
+  },
+  {
+    id: "f5-devcentral-2023",
+    title: "F5 DevCentral",
+    organization: "F5",
+    description: "Technical discussions on API security and AI integration",
+    year: 2023,
+    type: "podcast",
+  },
+  {
+    id: "mlops-2023",
+    title: "MLOps Community",
+    organization: "MLOps Community",
+    description: "Exploring the intersection of MLOps and security",
+    year: 2023,
+    type: "podcast",
+  },
+  {
+    id: "owasp-llm-podcast-2024",
+    title: "OWASP LLM Apps Podcast",
+    organization: "OWASP",
+    description: "Security considerations for LLM applications",
+    year: 2024,
+    type: "podcast",
+  },
+  {
+    id: "synack-2023",
+    title: "Synack Podcast",
+    organization: "Synack",
+    description: "Ethical hacking and AI security vulnerabilities",
+    year: 2023,
+    type: "podcast",
+  },
+  {
+    id: "boring-appsec-2025",
+    title: "The Boring AppSec Podcast",
+    organization: "Boring AppSec",
+    description: "AI Security Deep Dive - Modern AI attack vectors and LLM application security",
+    year: 2025,
+    type: "podcast",
+  },
+];
+
+export const publications: SpeakingEvent[] = [
+  {
+    id: "packt-book-2025",
+    title: "AI Native LLM Security",
+    organization: "Packt Publishing",
+    description: "A comprehensive guide to leveraging OWASP Top 10 for LLM applications and beyond",
+    year: 2025,
+    type: "publication",
+    readMoreLink: "https://www.packtpub.com/en-ca/product/ai-native-llm-security-9781836203742",
+  },
+  {
+    id: "arxiv-airtbench-2025",
+    title: "arXiv: AIRTBench - Measuring Autonomous AI Red Teaming",
+    organization: "arXiv",
+    description: "AI red teaming benchmark for evaluating language models' security capabilities",
+    year: 2025,
+    type: "publication",
+    readMoreLink: "https://arxiv.org/abs/2506.14682",
+  },
+  {
+    id: "arxiv-maif-2025",
+    title: "arXiv: MAIF - Enforcing AI Trust and Provenance",
+    organization: "arXiv",
+    description: "Academic paper on enforcing AI trust through artifact-centric agentic paradigm",
+    year: 2025,
+    type: "publication",
+    readMoreLink: "https://arxiv.org/abs/2511.15097",
+  },
+  {
+    id: "dreadnode-claude-2025",
+    title: "AI Red Teaming: Claude 3.7 Sonnet Solves Turtle Challenge",
+    organization: "Dreadnode",
+    description: "Groundbreaking research where AI models crushed a cybersecurity challenge",
+    year: 2025,
+    type: "publication",
+    readMoreLink: "https://dreadnode.io/blog/ai-red-teaming-case-study-claude-sonnet-solves-turtle",
+  },
+  {
+    id: "owasp-top10-2023",
+    title: "OWASP Top 10 for LLM Applications",
+    organization: "OWASP",
+    description: "Contributing author to the OWASP Top 10 for LLM Applications guide",
+    year: 2023,
+    type: "publication",
+    readMoreLink: "https://owasp.org/www-project-top-10-for-large-language-model-applications/",
+  },
+  {
+    id: "bugcrowd-hacking-llm-2025",
+    title: "Hacking LLM applications: A meticulous hacker's two cents",
+    organization: "BugCrowd",
+    description: "Insights into vulnerabilities specific to LLM applications",
+    year: 2025,
+    type: "publication",
+    readMoreLink: "https://www.bugcrowd.com/blog/hacking-llm-applications-a-meticulous-hackers-two-cents/",
+  },
+  {
+    id: "lakera-report-2025",
+    title: "Lakera 2025 GenAI Security Readiness Report",
+    organization: "Lakera",
+    description: "Contributing advisor to the Lakera 2025 GenAI Security Readiness Report",
+    year: 2025,
+    type: "publication",
+    readMoreLink: "https://www.lakera.ai/genai-security-report-2025",
+  },
+];
+
+export const volunteering: SpeakingEvent[] = [
+  {
+    id: "caido-ambassador",
+    title: "Hacker Ambassador",
+    organization: "Caido",
+    description: "Community ambassador contributing feature development and custom plugins for security testing",
+    year: 2024,
+    type: "volunteering",
+    readMoreLink: "https://caido.io/",
+  },
+  {
+    id: "bugcrowd-hab",
+    title: "Hacker Advisory Board Member",
+    organization: "BugCrowd",
+    description: "Representing the global hacker community on Bugcrowd's Hacker Advisory Board",
+    year: 2024,
+    type: "volunteering",
+    readMoreLink: "https://www.bugcrowd.com/blog/what-is-bugcrowds-hacker-advisory-board/",
+  },
+  {
+    id: "mitre-ai-wg",
+    title: "Member – Artificial Intelligence Working Group",
+    organization: "MITRE",
+    description: "Contributing to AI security standards and working group initiatives",
+    year: 2024,
+    type: "volunteering",
+    readMoreLink: "https://cwe.mitre.org/community/working_groups.html",
+  },
+  {
+    id: "owasp-genai-lead",
+    title: "OWASP GenAI Security & LLM Applications Board Member",
+    organization: "OWASP",
+    description: "Technical Lead for GenAI Security & LLM Applications projects",
+    year: 2023,
+    type: "volunteering",
+  },
+  {
+    id: "owasp-toronto-lead",
+    title: "OWASP Toronto Chapter Lead",
+    organization: "OWASP",
+    description: "Leading the OWASP Toronto chapter community and events",
+    year: 2024,
+    type: "volunteering",
+  },
+];
+
+export const television: SpeakingEvent[] = [
+  {
+    id: "nasdaq-2025",
+    title: "NASDAQ TradeTalks",
+    organization: "NASDAQ",
+    description: "The Ever-Changing Landscape of AI Safety",
+    year: 2025,
+    type: "television",
+    link: "https://www.youtube.com/watch?v=kWJyrbWsRNk",
+  },
+];
+
+export const allOrganizations = [
+  "All",
+  "API Days",
+  "APISec",
+  "BugCrowd",
+  "Caido",
+  "DC604",
+  "DEFCON",
+  "Dreadnode",
+  "In-Cyber Forum",
+  "ISACA",
+  "ISC2",
+  "Lakera",
+  "MITRE",
+  "MLOps Community",
+  "OWASP",
+  "Packt Publishing",
+  "PromptorGTFO",
+  "RSA Conference",
+  "Synack",
+  "arXiv",
+];
+
+export const years = ["All", "2025", "2024", "2023"];
