@@ -4,7 +4,7 @@ export interface SpeakingEvent {
   organization: string;
   description: string;
   year: number;
-  type: 'conference' | 'podcast' | 'publication' | 'volunteering' | 'television';
+  type: 'conference' | 'project' | 'publication' | 'volunteering' | 'television';
   link?: string;
   readMoreLink?: string;
 }
@@ -108,62 +108,14 @@ export const conferences: SpeakingEvent[] = [
   },
 ];
 
-export const podcasts: SpeakingEvent[] = [
+export const projects: SpeakingEvent[] = [
   {
-    id: "bareknuckles-2025",
-    title: "Bare Knuckles and Brass Tacks",
-    organization: "Bare Knuckles",
-    description: "Discussion about AI and ML security",
+    id: "project-placeholder-1",
+    title: "Project Coming Soon",
+    organization: "WildeW3rks",
+    description: "Details about upcoming projects will be added here",
     year: 2025,
-    type: "podcast",
-  },
-  {
-    id: "chai-chat-2023",
-    title: "ChAI Chat Podcast",
-    organization: "ChAI Chat",
-    description: "Conversations on AI ethics and security challenges",
-    year: 2023,
-    type: "podcast",
-  },
-  {
-    id: "f5-devcentral-2023",
-    title: "F5 DevCentral",
-    organization: "F5",
-    description: "Technical discussions on API security and AI integration",
-    year: 2023,
-    type: "podcast",
-  },
-  {
-    id: "mlops-2023",
-    title: "MLOps Community",
-    organization: "MLOps Community",
-    description: "Exploring the intersection of MLOps and security",
-    year: 2023,
-    type: "podcast",
-  },
-  {
-    id: "owasp-llm-podcast-2024",
-    title: "OWASP LLM Apps Podcast",
-    organization: "OWASP",
-    description: "Security considerations for LLM applications",
-    year: 2024,
-    type: "podcast",
-  },
-  {
-    id: "synack-2023",
-    title: "Synack Podcast",
-    organization: "Synack",
-    description: "Ethical hacking and AI security vulnerabilities",
-    year: 2023,
-    type: "podcast",
-  },
-  {
-    id: "boring-appsec-2025",
-    title: "The Boring AppSec Podcast",
-    organization: "Boring AppSec",
-    description: "AI Security Deep Dive - Modern AI attack vectors and LLM application security",
-    year: 2025,
-    type: "podcast",
+    type: "project",
   },
 ];
 
