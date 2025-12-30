@@ -1,14 +1,14 @@
 import { Github, Monitor } from "lucide-react";
 
 const badges = [
-  { text: "Founder & Lead Security Consultant (OffSecNoose)", variant: "coral" },
-  { text: "BugCrowd Bench Security Researcher | Freelance Penetration Tester", variant: "coral" },
-  { text: "#1 HackerOne Up & Comer Q4 2025", variant: "yellow", icon: "🏆" },
+  { text: "Founder & Lead Security Consultant (WildeW3rks)", variant: "coral" },
+  { text: "BugCrowd Security Researcher | Freelance Penetration Tester", variant: "coral" },
+  { text: "HackerOne", variant: "yellow", icon: "🏆" },
   { text: "BugCrowd Hacker Advisory Board Member", variant: "cyan" },
   { text: "Caido Hacker Ambassador", variant: "coral" },
-  { text: "AI Native LLM Security Book Author", variant: "coral" },
-  { text: "OWASP GenAI Security & LLM Applications Board Member and Technical Lead", variant: "coral" },
-  { text: "OWASP Toronto Chapter Lead", variant: "coral" },
+  { text: "AI LLM Security Project Manager", variant: "coral" },
+  { text: "OWASP GenAI Security & LLM Applications Board Member", variant: "coral" },
+  { text: "OWASP Chapter Lead", variant: "coral" },
 ];
 
 const HeroSection = () => {
@@ -28,7 +28,7 @@ const HeroSection = () => {
 
         {/* Name */}
         <h1 className="hero-title text-6xl md:text-8xl text-secondary text-center mb-4">
-          W1ld3F0x
+          W1LD3F0X
         </h1>
 
         {/* Subtitle */}
