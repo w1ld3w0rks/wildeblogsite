@@ -1,4 +1,4 @@
-import { Mic, FolderOpen, FileText } from "lucide-react";
+import { Mic, FolderOpen } from "lucide-react";
 
 interface TabNavigationProps {
   activeTab: string;
@@ -8,7 +8,6 @@ interface TabNavigationProps {
 const tabs = [
   { id: "conferences", label: "Conferences", icon: Mic },
   { id: "projects", label: "Projects", icon: FolderOpen },
-  { id: "publications", label: "Publications", icon: FileText },
 ];
 
 const TabNavigation = ({ activeTab, onTabChange }: TabNavigationProps) => {
