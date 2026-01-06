@@ -60,7 +60,7 @@ const HeroSection = () => {
         {/* Speech bubble tagline */}
         <div className="speech-bubble max-w-3xl mx-auto text-center mb-12">
           <p className="font-mono text-foreground text-sm md:text-base">
-            Breaking apps for fun and profit, jailbreaking AI, and teaching the world how to hack responsibly.
+            Breaking networks, modeling threats, and making attackers work harder than it's worth.
           </p>
         </div>
 
