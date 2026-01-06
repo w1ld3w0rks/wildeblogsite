@@ -12,9 +12,9 @@ export interface SpeakingEvent {
 export const conferences: SpeakingEvent[] = [
   {
     id: "defcon-33-2025",
-    title: "DEFCON 33 - AI Jailbreaking Panel",
+    title: "DEFCON 33",
     organization: "DEFCON",
-    description: "Misaligned: AI Jailbreaking Panel with Basi Team Six & Jason Haddix",
+    description: "Attending DEFCON 33 in Las Vegas",
     year: 2025,
     type: "conference",
   },
