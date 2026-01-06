@@ -7,14 +7,12 @@ import EventGrid from "@/components/EventGrid";
 import {
   conferences,
   projects,
-  publications,
   years,
 } from "@/data/speakingData";
 
 const sectionTitles: Record<string, string> = {
   conferences: "CONFERENCE & EVENTS TALKS",
   projects: "PROJECTS",
-  publications: "PUBLICATIONS",
 };
 
 const Index = () => {
@@ -29,8 +27,6 @@ const Index = () => {
         return conferences;
       case "projects":
         return projects;
-      case "publications":
-        return publications;
       default:
         return conferences;
     }
