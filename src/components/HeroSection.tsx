@@ -22,7 +22,7 @@ const HeroSection = () => {
         </a>
 
         {/* Name */}
-        <h1 className="hero-title text-6xl md:text-8xl text-secondary text-center mb-4">
+        <h1 className="font-orbitron text-6xl md:text-8xl text-secondary text-center mb-4 font-bold tracking-wider">
           W1LD3F0X
         </h1>
 

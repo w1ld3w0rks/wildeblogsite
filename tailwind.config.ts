@@ -17,6 +17,7 @@ export default {
         bangers: ['Bangers', 'cursive'],
         bebas: ['Bebas Neue', 'sans-serif'],
         mono: ['Space Mono', 'monospace'],
+        orbitron: ['Orbitron', 'sans-serif'],
       },
       colors: {
         border: "hsl(var(--border))",
