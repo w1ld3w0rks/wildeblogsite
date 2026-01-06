@@ -62,7 +62,7 @@ const HeroSection = () => {
         {/* CTA Button */}
         <div className="flex justify-center">
           <a
-            href="https://ganggreentempertatum.github.io/"
+            href="https://wildew3rks.com"
             target="_blank"
             rel="noopener noreferrer"
             className="cta-button"
