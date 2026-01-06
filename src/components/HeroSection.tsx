@@ -13,7 +13,7 @@ const HeroSection = () => {
       <div className="max-w-5xl mx-auto comic-card bg-card p-8 md:p-12 rounded-lg relative">
         {/* GitHub icon */}
         <a
-          href="https://github.com/GangGreenTemperTatum"
+          href="https://github.com/w1ld3w0rks"
           target="_blank"
           rel="noopener noreferrer"
           className="absolute top-4 right-4 p-3 bg-foreground text-background rounded-full hover:scale-110 transition-transform"
