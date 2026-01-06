@@ -22,7 +22,7 @@ export const conferences: SpeakingEvent[] = [
     id: "github-universe-2025",
     title: "GitHub Universe 2025",
     organization: "GitHub",
-    description: "Speaking at GitHub Universe 2025",
+    description: "Attending GitHub Universe 2025",
     year: 2025,
     type: "conference",
   },
