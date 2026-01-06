@@ -4,11 +4,6 @@ const badges = [
   { text: "Founder & Lead Security Consultant (WildeW3rks)", variant: "coral" },
   { text: "BugCrowd Security Researcher | Freelance Penetration Tester", variant: "coral" },
   { text: "HackerOne", variant: "yellow", icon: "🏆" },
-  { text: "BugCrowd Hacker Advisory Board Member", variant: "cyan" },
-  { text: "Caido Hacker Ambassador", variant: "coral" },
-  { text: "AI LLM Security Project Manager", variant: "coral" },
-  { text: "OWASP GenAI Security & LLM Applications Board Member", variant: "coral" },
-  { text: "OWASP Chapter Lead", variant: "coral" },
 ];
 
 const HeroSection = () => {
